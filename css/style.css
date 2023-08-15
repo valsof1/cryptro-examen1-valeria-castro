@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+--color-textos:#838383;
+--color-primario:#1379e7;
+--color-titulos:#1a1a1a;
+--fondo-footer:#efefef;
+--color-footer:#6d6d6d;
+}
+body{
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+color: var(--color-textos);
+font-weight: 400;
+line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Poppins', sans-serif;
+}
+header{font-family: 'Poppins', sans-serif;
+
+background-color: #fff;
+padding: 15px 0;
+border-bottom: 1px solid #eee;
+}
+
+.section{
+padding: 8% 0;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+align-content: flex-end;
+}
+
+.btn-primary{
+background-color: var(--color-primario);
+border: 0;
+padding: 10px 20px !important;
+border-radius: 3px;
+color: #fff;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.titulo{
+font-size: 44px;
+line-height: 1.3;
+font-weight: 600;
+color: var(--color-titulos);
+font-style: normal;
+margin-bottom: 20px;
+}
+
+#hero{
+background-image: url();
+
+}
+
+h3{
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+line-height: 1.3;
+font-weight: 700;
+color: var(--color-titulos);
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.fondohero{
+background-image: url("../img/hero.jpg");
+height: 100vh;
+}
+
+.meets{
+display: flex;
+padding-top: 2rem;
+margin-left: 25%;
+margin-right: 15%;
+}
+
+.fondohero article{
+margin-left: 45%;
+margin-right: 15%;
+}
+
+#footer-sponsors h2, #footer-sponsors h4{
+color: black !important;
+}
+
+footer{
+font-family: 'Poppins', sans-serif;
+text-align: center;
+padding: 20px 0;
+color: var(--color-footer);
+}
+
+footer #footer-sponsors{
+color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
